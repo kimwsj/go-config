@@ -3,7 +3,7 @@ package env
 import (
 	"errors"
 
-	"github.com/micro/go-config/source"
+	"github.com/kimwsj/go-config/source"
 )
 
 type watcher struct {

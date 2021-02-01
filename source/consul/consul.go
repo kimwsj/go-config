@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-config/source"
+	"github.com/kimwsj/go-config/source"
 )
 
 // Currently a single consul reader
@@ -21,7 +21,7 @@ type consul struct {
 var (
 	// DefaultPrefix is the prefix that consul keys will be assumed to have if you
 	// haven't specified one
-	DefaultPrefix = "/micro/config/"
+	DefaultPrefix = "/kimwsj/config/"
 )
 
 func (c *consul) Read() (*source.ChangeSet, error) {

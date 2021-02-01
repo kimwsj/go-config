@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/micro/go-config/source"
-	proto "github.com/micro/go-config/source/grpc/proto"
+	"github.com/kimwsj/go-config/source"
+	proto "github.com/kimwsj/go-config/source/grpc/proto"
 	"google.golang.org/grpc"
 )
 
@@ -15,7 +15,7 @@ type grpcSource struct {
 }
 
 var (
-	DefaultPath    = "/micro/config"
+	DefaultPath    = "/kimwsj/config"
 	DefaultAddress = "localhost:8080"
 )
 
